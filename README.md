@@ -32,7 +32,7 @@ flowchart TB
 | 1 | Kill pods during load | Readiness probes + replicas keep the SLO; budget barely moves |
 | 2 | Drain a node | PodDisruptionBudget keeps capacity; no 5xx spike |
 | 3 | Inject latency into a dependency | Timeouts and retries contain it; latency SLO alerts if not |
-| 4 | Lose the primary cluster | Failover to cluster B within the runbook's target [CONFIRM target]; budget spend measured |
+| 4 | Lose the primary cluster | Failover to cluster B within the target written in the runbook; budget spend measured |
 | 5 | Bad config rollout | Rollout pauses on failing probes; rollback restores the SLO |
 | 6 | Staged recovery | Runbook brings back a backlog in batches without overloading downstream |
 

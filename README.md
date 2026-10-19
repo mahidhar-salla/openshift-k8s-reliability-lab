@@ -51,4 +51,4 @@ As a Senior Site Reliability Engineer, I led the architecture and production rol
 
 ## License
 
-[MIT](LICENSE) © 2026 Mahidhar Chowdhary Salla
+[MIT](LICENSE) © 2026 Mahidhar Salla
